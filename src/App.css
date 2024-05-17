@@ -1,0 +1,47 @@
+/* Container styling for centering content and adding spacing */
+.container {
+  text-align: center;
+  margin-top: 50px;
+  padding: 20px;
+}
+
+/* Styling for the main content area */
+.main-content {
+  margin: 20px auto;
+  padding: 10px;
+  border: 1px solid #ccc;
+  min-height: 50px;
+  width: 80%;
+  cursor: pointer;
+  background-color: #f9f9f9;
+  transition: background-color 0.3s;
+}
+
+/* Hover effect for main content */
+.main-content:hover {
+  background-color: #e0e0e0;
+}
+
+/* Styling for buttons within the .btn-style div */
+.btn-style button {
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  border: none;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  display: inline-block; /* Ensure buttons are inline-block */
+  font-size: 16px;
+  border-radius: 5px; /* Rounded corners for buttons */
+}
+
+/* Hover effect for buttons */
+.btn-style button:hover {
+  background-color: #0056b3;
+}
+
+/* Additional styling for the 'Copied!' button state */
+.btn-style button:active {
+  background-color: #004494;
+}
